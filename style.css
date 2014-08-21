@@ -4,4 +4,11 @@ body{
 }
 dt{
 	margin-top:10px;
+
+}
+dd{
+	margin-top:5px;
+}
+mark{
+	background: #FAF7A4;
 }
