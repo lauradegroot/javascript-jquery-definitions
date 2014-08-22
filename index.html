@@ -6,12 +6,16 @@
 	<body>
 		<h2>Definitions</h2>
 		<h3>from the book <em>JavaScript &amp; jQuery</em> by Jon Duckett</h3>
-		<ul>
-			<li><a href="#objects">objects</a></li>
-			<li><a href="#properties">properties</a></li>
-			<li><a href="#events">events</a></li>
-			<li><a href="#methods">methods</a></li>
-			<li><a href="#document-object">document object</a></li>
+		<ul class="terms">
+			<li class="objects"><a href="#objects">objects</a></li>
+			<li class="properties"><a href="#properties">properties</a></li>
+			<li class="events"><a href="#events">events</a></li>
+			<li class="methods"><a href="#methods">methods</a></li>
+			<li class="document-object"><a href="#document-object">document object</a></li>
+			<li class="interpreted"><a href="#interpreted">interpreted programming language</a></li>
+			<li class="member"><a href="#member">member</a></li>
+			<li class="member-operator"><a href="#member-operator">member-operator</a></li>
+			<li class="parameter"><a href="#parameter">parameter</a></li>
 		</ul>
 		<dl>
 			<dt id="objects">objects</dt>
@@ -27,7 +31,7 @@
 				<dd>example: <code><mark>checkName()</mark></code></dd>
 			<dt id="document-object">document object</dt>
 				<dd>The doucument object represents an HTML page. Like other objects, the document object has properties, methods and events. <em>Properties</em> describe characteristics of the current web page (such as the title). <em>Methods</em> perform tasks associated with the document currently loaded in the browser (such as getting new information from an element or adding content). <em>Events</em> can be responded to, such as a user clicking on an element.</dd>
-			<dt>interpreted programming language</dt>
+			<dt id="interpreted">interpreted programming language</dt>
 				<dd>An interpreter (scripting engine) takes your instructions (eg. in JavaScript) and translates them into instructions the browser can use. In an interpreted programming laguage, each line of code is translated one by one.</dd>
 			<dt id="member">member</dt>
 				<dd>Methods and properties of an object are called members.</dd>
@@ -39,4 +43,7 @@
 				<dd>example: <code>document.write(<mark>'hello'</mark>);</code></dd>
 		</dl>
 	</body>
+	<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+	<script src="script.js"></script>
 </html>
