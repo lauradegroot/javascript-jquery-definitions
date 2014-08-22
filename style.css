@@ -2,6 +2,13 @@
 body{
 	padding:20px;
 }
+.open-terms{
+	cursor: pointer;
+}
+.terms{
+	display:none;
+	list-style-type: none;
+}
 dt{
 	margin-top:10px;
 

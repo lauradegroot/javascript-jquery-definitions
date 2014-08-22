@@ -6,6 +6,7 @@
 	<body>
 		<h2>Definitions</h2>
 		<h3>from the book <em>JavaScript &amp; jQuery</em> by Jon Duckett</h3>
+		<p class="open-terms">index of terms</p>
 		<ul class="terms">
 			<li class="objects"><a href="#objects">objects</a></li>
 			<li class="properties"><a href="#properties">properties</a></li>
@@ -16,6 +17,9 @@
 			<li class="member"><a href="#member">member</a></li>
 			<li class="member-operator"><a href="#member-operator">member-operator</a></li>
 			<li class="parameter"><a href="#parameter">parameter</a></li>
+			<li class="statement"><a href="#statement">statement</a></li>
+			<li class="multi-line-comments"><a href="#multi-line-comments">multi-line comments</a></li>
+			<li class="single-line-comments"><a href="#single-line-comments">single-line comments</a></li>
 		</ul>
 		<dl>
 			<dt id="objects">objects</dt>
@@ -30,7 +34,7 @@
 				<dd>Methods perform tasks using the properties of an object. They typically represent how people or other things interact with an object in the real world.</dd>
 				<dd>example: <code><mark>checkName()</mark></code></dd>
 			<dt id="document-object">document object</dt>
-				<dd>The doucument object represents an HTML page. Like other objects, the document object has properties, methods and events. <em>Properties</em> describe characteristics of the current web page (such as the title). <em>Methods</em> perform tasks associated with the document currently loaded in the browser (such as getting new information from an element or adding content). <em>Events</em> can be responded to, such as a user clicking on an element.</dd>
+				<dd>The document object represents an HTML page. Like other objects, the document object has properties, methods and events. <em>Properties</em> describe characteristics of the current web page (such as the title). <em>Methods</em> perform tasks associated with the document currently loaded in the browser (such as getting new information from an element or adding content). <em>Events</em> can be responded to, such as a user clicking on an element.</dd>
 			<dt id="interpreted">interpreted programming language</dt>
 				<dd>An interpreter (scripting engine) takes your instructions (eg. in JavaScript) and translates them into instructions the browser can use. In an interpreted programming laguage, each line of code is translated one by one.</dd>
 			<dt id="member">member</dt>
@@ -41,7 +45,17 @@
 			<dt id="parameter">parameter</dt>
 				<dd>Whenever a method requires some information in order to work, the data is given inside the parentheses. Each piece of information is called a parameter.</dd>
 				<dd>example: <code>document.write(<mark>'hello'</mark>);</code></dd>
+			<dt id="statement">statement</dt>
+				<dd>A statement is an individual instruction that the computer should follow. Each one should start on a new line and end with a semi colon.</dd>
+				<dd>example: <code>if (hourNow > 18){ <mark>greeting = "Good evening";</mark> } else { <mark>greeting = "Welcome";</mark> } </code></dd>
+			<dt id="multi-line-comments">multi-line comments</dt>
+				<dd>To write a comment that stretches over more than one line, you can use a multiline comment, starting with the /* characters and ending with the */ characters</dd>
+				<dd>example: <code><mark>/* hey check me out I'm a<br/>muli-line comment/*</mark></code></dd>
+			<dt id="single-line-comments">single-line comments</dt>
+				<dd>In a single-line comment, anything that follows the two forward slash characters // on that line will not me processed by the JavaScript interpreter.</dd>
+				<dd>example: <code><mark>// hey check me out I'm a single line comment</mark></code></dd>
 		</dl>
+		<a href="#">top</a>
 	</body>
 	<script src="http://code.jquery.com/jquery-latest.min.js"
         type="text/javascript"></script>
