@@ -4,4 +4,4 @@ $(function(){
 		var termClass = $(this).attr("class");
 		$('dt#'+termClass).addClass('highlight');
 	});
-})
+});
